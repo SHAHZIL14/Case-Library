@@ -37,8 +37,8 @@ function Index() {
       <main className="max-w-6xl mx-auto px-6 pt-32 pb-20 text-center">
         <div className="max-w-4xl mx-auto space-y-6">
           <h2 className="text-5xl md:text-6xl font-bold leading-tight">
-            Comprehensive Legal Research
-            <span className="text-red-600"> Simplified</span>
+            Assignment Project 
+            <span className="text-red-600"> #1</span>
           </h2>
 
           <p className="text-xl text-neutral-400 max-w-2xl mx-auto">
