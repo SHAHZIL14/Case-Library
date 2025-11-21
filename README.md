@@ -19,24 +19,6 @@ Case Library is a clean, fast, and easy-to-use legal research platform. Search t
 
 Clone the repo and install dependencies for frontend and backend. Run the backend (`node index.js`) and frontend (`npm start`) servers. The app should open in your browser at `http://localhost:3000`.
 
-## Folder Structure
-
-project-root/
-├─ backend/
-│ ├─ controllers/search.controller.js
-│ ├─ database/DATA.json
-│ └─ index.js
-├─ frontend/
-│ ├─ components/
-│ │ ├─ Header.jsx
-│ │ ├─ SearchInput.jsx
-│ │ ├─ SearchResults.jsx
-│ │ └─ CaseCard.jsx
-│ ├─ pages/Index.jsx
-│ ├─ index.css
-│ └─ App.jsx
-└─ README.md
-
 ## How It Works
 
 Enter a keyword, submit, and the frontend queries the backend. The backend filters and ranks matches from the JSON database and returns them. Results appear in card format, and popular searches appear when no query is entered.
